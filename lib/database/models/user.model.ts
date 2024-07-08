@@ -24,9 +24,11 @@ const UserSchema = new Schema({
   },
   firstName: {
     type: String,
+    default: null,
   },
   lastName: {
     type: String,
+    default: null,
   },
   planId: {
     type: Number,
